@@ -72,6 +72,16 @@ result <- create_lioness_multiomics_samples(
 
 See `?create_lioness_multiomics_samples` for the comparison options.
 
+## AI declaration
+
+- Gemini 3.5 (05/2026 - 07/2026) and ChatGPT 5.5 (04/2026 - 07/2026) were used for assisting code
+  writing; their use is indicated as comments (e.g., detecting most variable genes); all
+  suggestions were manually reviewed and verified.
+- Claude Opus 5.5 (09/2026 - 11/2026) was used for restructuring the repository including forked
+  DrDimont into a standalone package, making the dependency structure with respect to DrDimont
+  adhere to CRAN guidelines, and adapting the examples to those also employed in the DrDimont
+  package. All suggestions were manually reviewed and verified.
+
 ## References
 
 This package builds on:
